@@ -6,6 +6,7 @@ function soma(num1, num2) {
 console.log(soma(10, 30))
 
 
+
 //Função anônima
 const somar = function (valor1, valor2) {
     return valor1 + valor2;
@@ -17,6 +18,8 @@ const mostrarInfo = function (info) {
 }
 
 mostrarInfo(somar(50, 60))
+
+
 
 //Arrow Functions
 const somaArrow = (a, b) => a + b
